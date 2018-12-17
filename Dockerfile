@@ -1,7 +1,9 @@
 FROM php:7.2-fpm
 
 EXPOSE 3050/tcp
+EXPOSE 3050/udp
 EXPOSE 3051/tcp
+EXPOSE 3051/udp
 
 RUN apt-get update
 RUN apt-get install wget bzip2 curl libicu-dev libncurses5-dev -yqq --allow-unauthenticated
