@@ -1,5 +1,9 @@
 # docker-php-with-firebird
 - Use this image for projects that needs firebird connection. This image install PHP 7.2 and expose the docker ports.
+- Use the tag as you need:
+  - 7.1: with PHP 7.1
+  - 7.2: with PHP 7.2
+  - 7.3: with PHP 7.3
 
 # after pulling the image
 After pulling the image, run these commands:
