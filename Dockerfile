@@ -1,4 +1,4 @@
-FROM php:7.2-fpm
+FROM php:7.1-fpm
 
 EXPOSE 3050/tcp
 EXPOSE 3050/udp
